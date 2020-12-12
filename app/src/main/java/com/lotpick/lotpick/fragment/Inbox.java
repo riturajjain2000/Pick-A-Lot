@@ -3,6 +3,7 @@ package com.lotpick.lotpick.fragment;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -84,9 +85,12 @@ public class Inbox extends Fragment {
 
                     assert user != null;
                     assert firebaseUser != null;
-                    if (!user.getId().equals(firebaseUser.getUid())) {
+               try {     if (!user.getId().equals(firebaseUser.getUid())) {
                         mUser.add(user);
-                    }
+                }}
+               catch (Exception e){
+                   Log.d("CHATLIST", "onDataChange: "+e);
+               }
                 }
                 userAdapter = new UserAdapter(getContext(), mUser, false);
                 reView.setAdapter(userAdapter);
