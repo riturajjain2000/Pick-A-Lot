@@ -1,4 +1,4 @@
-package com.lotpick.lotpick;
+package com.lotpick.lotpick.Activity;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -22,8 +22,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.gms.tasks.Continuation;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -39,6 +37,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.lotpick.lotpick.R;
 import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
