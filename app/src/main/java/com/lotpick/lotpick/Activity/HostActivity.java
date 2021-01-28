@@ -1,4 +1,4 @@
-package com.lotpick.lotpick;
+package com.lotpick.lotpick.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -30,6 +30,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.lotpick.lotpick.R;
 
 import java.io.IOException;
 import java.util.HashMap;

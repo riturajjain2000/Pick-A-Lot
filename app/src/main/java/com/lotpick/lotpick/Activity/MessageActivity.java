@@ -1,4 +1,4 @@
-package com.lotpick.lotpick;
+package com.lotpick.lotpick.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.lotpick.lotpick.Adapters.MessageAdapter;
 import com.lotpick.lotpick.Models.Chat;
 import com.lotpick.lotpick.Models.User;
+import com.lotpick.lotpick.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

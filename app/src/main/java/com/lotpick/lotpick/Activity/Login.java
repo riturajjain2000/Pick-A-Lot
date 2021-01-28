@@ -1,4 +1,4 @@
-package com.lotpick.lotpick;
+package com.lotpick.lotpick.Activity;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -31,6 +31,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.lotpick.lotpick.R;
 
 public class Login extends AppCompatActivity {
     private EditText Email;

@@ -1,4 +1,4 @@
-package com.lotpick.lotpick;
+package com.lotpick.lotpick.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,11 +29,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.lotpick.lotpick.R;
 
-import java.util.HashMap;
 import java.util.Objects;
 
 public class Register extends AppCompatActivity {

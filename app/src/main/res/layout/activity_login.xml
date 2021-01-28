@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginback"
-    tools:context=".Login">
+    tools:context=".Activity.Login">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageView"

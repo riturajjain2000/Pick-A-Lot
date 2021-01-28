@@ -16,35 +16,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Mylist"></activity>
+        <activity android:name=".Activity.Mylist"></activity>
         <activity android:name=".Contact" />
         <activity
-            android:name=".MessageActivity"
+            android:name=".Activity.MessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNo" />
         <activity
-            android:name=".place_description"
+            android:name=".Activity.place_description"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HostActivity"
+            android:name=".Activity.HostActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TermsActivity"
+            android:name=".Activity.TermsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PersonalInfo"
+            android:name=".Activity.PersonalInfo"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Register"
+            android:name=".Activity.Register"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Login"
+            android:name=".Activity.Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Splashscreen"
+            android:name=".Activity.Splashscreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
